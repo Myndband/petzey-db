@@ -1,94 +1,167 @@
 {
-  "Payments": [
+  "patients": [
     {
-      "CVV": 634,
-      "ExpMonthAndYear": "14/2026",
-      "NameOnCard": "rakesh",
-      "creditCardNumber": 45654346,
-      "id": 2,
-      "orderNo": 2
+      "petId": 132,
+      "avatar": "assets/img/pet04.png",
+      "fullName": "Gireesh Haridaas",
+      "petName": "giri",
+      "petAge": "3",
+      "address": "Hubbali",
+      "ownerPhoneNo": "+91-7897453627",
+      "ownerEmail": "girish@mail.com"
     },
     {
-      "CVV": 354,
-      "ExpMonthAndYear": "10/2022",
-      "NameOnCard": "Yeshu",
-      "creditCardNumber": 1673756,
-      "id": 1,
-      "orderNo": 1
+      "petId": 134,
+      "avatar": "assets/img/pet02.png",
+      "fullName": "John Max",
+      "petName": "Johny",
+      "petAge": "2",
+      "address": "Chkkamangaluru",
+      "ownerPhoneNo": "+91-9867896675",
+      "ownerEmail": "maxx@mail.com"
     },
     {
-      "CVV": 563,
-      "ExpMonthAndYear": "07/2025",
-      "NameOnCard": "Suhasini",
-      "creditCardNumber": 56273535,
-      "id": 3,
-      "orderNo": 3
+      "petId": 135,
+      "avatar": "assets/img/pet03.png",
+      "fullName": "archana priya",
+      "petName": "Hazel",
+      "petAge": "4",
+      "address": "Bangalore",
+      "ownerPhoneNo": "+91-7893837390",
+      "ownerEmail": "priya@mail.com"
     },
     {
-      "CVV": 675,
-      "ExpMonthAndYear": "04/2015",
-      "NameOnCard": "Abhilash",
-      "creditCardNumber": 86483465,
-      "id": 4,
-      "orderNo": 4
+      "petId": 136,
+      "avatar": "assets/img/pet02.png",
+      "fullName": "Fathima Razina",
+      "petName": "Heel",
+      "petAge": "3",
+      "address": "Kormangalla",
+      "ownerPhoneNo": "+91-6789876545",
+      "ownerEmail": "razina@mail.com"
     },
     {
-      "CVV": 435,
-      "ExpMonthAndYear": "03/2035",
-      "NameOnCard": "Ravi",
-      "creditCardNumber": 465643,
-      "id": 5,
-      "orderNo": 5
+      "petId": 137,
+      "avatar": "assets/img/pet05.png",
+      "fullName": "Nazeeya Banu",
+      "petName": "ram",
+      "petAge": "3",
+      "address": "ancii",
+      "ownerPhoneNo": "+91-7899098766",
+      "ownerEmail": "banu@mail.com"
     },
     {
-      "CVV": 566,
-      "ExpMonthAndYear": "01/2056",
-      "NameOnCard": "Rahul",
-      "creditCardNumber": 453,
-      "id": 6,
-      "orderNo": 6
+      "petId": 138,
+      "avatar": "assets/img/pet02.png",
+      "fullName": "Uzma Tarranum",
+      "petName": "hazeee",
+      "petAge": "3",
+      "address": "ancii",
+      "ownerPhoneNo": "+91-7899098766",
+      "ownerEmail": "uzma@mail.com"
+    },
+    {
+      "petId": 133,
+      "avatar": "assets/img/pet01.png",
+      "fullName": "Mosh Haemadani",
+      "petName": "maxi",
+      "petAge": "3",
+      "address": "Bangalore",
+      "ownerPhoneNo": "+91-8976564567",
+      "ownerEmail": "mosh@mail.com"
     }
   ],
-  "Orders": [
+  "department": [
+    { "departmentId": 92, "departmentName": "Anesthesiology", "status": 1 },
+    { "departmentId": 96, "departmentName": "Radiology", "status": 1 },
+    { "departmentId": 95, "departmentName": "Ophthalmology", "status": 2 },
+    { "departmentId": 94, "departmentName": "Dermatology", "status": 1 },
+    { "departmentId": 93, "departmentName": "Dental", "status": 1 }
+  ],
+  "doctors": [
     {
-      "contactName": "Preamchand",
-      "grandTotal": "$118",
-      "itemsOrdered": "10",
-      "orderNo": 1,
-      "orderTotal": "$100",
-      "taxTotal": "$18"
+      "doctorId": 1,
+      "fullName": "Kim Leo",
+      "speciality": "Dentist",
+      "address": "Mysuru",
+      "state": "Karnataka",
+      "avatar": "assets/img/doctor-thumb-01.jpg"
     },
     {
-      "contactName": "Varun",
-      "grandTotal": "$566",
-      "itemsOrdered": "56",
-      "orderNo": 2,
-      "orderTotal": "$552",
-      "taxTotal": "$14"
+      "doctorId": 38,
+      "fullName": "Megha Mishrunka",
+      "speciality": "ENT",
+      "address": "Thrissur",
+      "state": "Kerala",
+      "avatar": "assets/img/doctor-thumb-08.jpg"
     },
     {
-      "contactName": "Neeraj",
-      "grandTotal": "$536",
-      "itemsOrdered": "45",
-      "orderNo": 3,
-      "orderTotal": "$546",
-      "taxTotal": "$15"
+      "doctorId": 39,
+      "fullName": "Raja Anand",
+      "speciality": "Orthopedia",
+      "address": "Sri Nagar",
+      "state": "Jammu",
+      "avatar": "assets/img/doctor-thumb-09.jpg"
     },
     {
-      "contactName": "Ratnesh",
-      "grandTotal": "$346",
-      "itemsOrdered": "35",
-      "orderNo": 4,
-      "orderTotal": "$336",
-      "taxTotal": "$14"
+      "doctorId": 40,
+      "fullName": "Syed Faizan",
+      "speciality": "Ophthalmologist",
+      "address": "Bhadravathi",
+      "state": "Karnataka",
+      "avatar": "assets/img/doctor-thumb-04.jpg"
     },
     {
-      "contactName": "Suresh",
-      "grandTotal": "$246",
-      "itemsOrdered": "35",
-      "orderNo": 5,
-      "orderTotal": "$126",
-      "taxTotal": "$15"
+      "doctorId": 41,
+      "fullName": "Jeevan Kumarswamy",
+      "speciality": "Nephrologists ",
+      "address": "Sakkarayapattana",
+      "state": "Karnataka",
+      "avatar": "assets/img/doctor-thumb-06.jpg"
+    },
+    {
+      "doctorId": 42,
+      "fullName": "Prajwal K N",
+      "speciality": "Pancreatologists",
+      "address": "Bhopal",
+      "state": "Madya Pradesh",
+      "avatar": "assets/img/doctor-thumb-11.jpg"
+    },
+    {
+      "doctorId": 43,
+      "fullName": "Sudarsan Muniyappa",
+      "speciality": "Neurologist",
+      "address": "Bengaluru",
+      "state": "Karnataka",
+      "avatar": "assets/img/doctor-thumb-12.jpg"
+    },
+    {
+      "doctorId": 37,
+      "fullName": "Ajaya Deva",
+      "speciality": "Oncology",
+      "address": "Bengaluru",
+      "state": "Karnataka",
+      "avatar": "assets/img/doctor-thumb-02.jpg"
+    }
+  ],
+  "appointments": [
+    {
+      "appointmentId": 107,
+      "petId": 132,
+      "vetId": 1,
+      "date": "2023-01-23T14:27",
+      "time": "14:27",
+      "appointmentStatus": 1,
+      "isApproved": "pending"
+    },
+    {
+      "appointmentId": 109,
+      "petId": 134,
+      "vetId": 38,
+      "date": "2023-01-23T14:41",
+      "time": "14:41",
+      "appointmentStatus": 1,
+      "isApproved": "pending"
     }
   ]
 }
