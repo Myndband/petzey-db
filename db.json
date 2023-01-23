@@ -163,5 +163,61 @@
       "appointmentStatus": 1,
       "isApproved": "pending"
     }
+  ],
+  "profile": [
+    {
+      "profileID": 1,
+      "name": "cristino groves",
+      "email": "cristinogroves@gmail.com",
+      "DOB": "23-02-2002",
+      "status": "Active",
+      "phone": 657887654,
+      "address": "600 HD Fench",
+      "country": "US",
+      "state": "california",
+      "city": "san fransisco"
+    }
+  ],
+  "login": [
+    {
+      "id": "doctor",
+      "name": "NT Infotech",
+      "password": "Test$1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "doctor",
+      "isactive": true
+    },
+    {
+      "id": "patient",
+      "name": "Test User",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "gender": "male",
+      "role": "patient",
+      "isactive": true
+    }
+  ],
+  "clinic": [
+    {
+      "clinicId": 25,
+      "clinicName": "Apollo",
+      "clinicInfo": "Dental",
+      "location": "Bengaluru",
+      "phoneNumber": "7411275878",
+      "timings": "10:32 - 10:59",
+      "description": "good",
+      "status": "APPROVED"
+    },
+    {
+      "clinicId": 26,
+      "clinicName": "Apollo",
+      "clinicInfo": "Dental",
+      "location": "Bengaluru",
+      "phoneNumber": "1234566789",
+      "timings": "12:06 - 22:06",
+      "description": "great",
+      "status": "APPROVED"
+    }
   ]
 }
