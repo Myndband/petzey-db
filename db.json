@@ -1,7 +1,8 @@
 {
   "patients": [
     {
-      "petId": 132,
+      "id":1,
+      "petId": 1,
       "avatar": "assets/img/pet04.png",
       "fullName": "Gireesh Haridaas",
       "petName": "giri",
@@ -11,7 +12,8 @@
       "ownerEmail": "girish@mail.com"
     },
     {
-      "petId": 134,
+      "id":2,
+      "petId": 2,
       "avatar": "assets/img/pet02.png",
       "fullName": "John Max",
       "petName": "Johny",
@@ -21,7 +23,8 @@
       "ownerEmail": "maxx@mail.com"
     },
     {
-      "petId": 135,
+      "id":3,
+      "petId": 3,
       "avatar": "assets/img/pet03.png",
       "fullName": "archana priya",
       "petName": "Hazel",
@@ -31,7 +34,8 @@
       "ownerEmail": "priya@mail.com"
     },
     {
-      "petId": 136,
+      "id":4,
+      "petId": 4,
       "avatar": "assets/img/pet02.png",
       "fullName": "Fathima Razina",
       "petName": "Heel",
@@ -41,7 +45,8 @@
       "ownerEmail": "razina@mail.com"
     },
     {
-      "petId": 137,
+      "id":5,
+      "petId": 5,
       "avatar": "assets/img/pet05.png",
       "fullName": "Nazeeya Banu",
       "petName": "ram",
@@ -51,7 +56,8 @@
       "ownerEmail": "banu@mail.com"
     },
     {
-      "petId": 138,
+      "id":6,
+      "petId": 6,
       "avatar": "assets/img/pet02.png",
       "fullName": "Uzma Tarranum",
       "petName": "hazeee",
@@ -61,7 +67,8 @@
       "ownerEmail": "uzma@mail.com"
     },
     {
-      "petId": 133,
+      "id":7,
+      "petId": 7,
       "avatar": "assets/img/pet01.png",
       "fullName": "Mosh Haemadani",
       "petName": "maxi",
@@ -72,14 +79,15 @@
     }
   ],
   "department": [
-    { "departmentId": 92, "departmentName": "Anesthesiology", "status": 1 },
-    { "departmentId": 96, "departmentName": "Radiology", "status": 1 },
-    { "departmentId": 95, "departmentName": "Ophthalmology", "status": 2 },
-    { "departmentId": 94, "departmentName": "Dermatology", "status": 1 },
-    { "departmentId": 93, "departmentName": "Dental", "status": 1 }
+    { "id":1, "departmentId": 1, "departmentName": "Anesthesiology", "status": 1 },
+    { "id":2, "departmentId": 2, "departmentName": "Radiology", "status": 1 },
+    { "id":3, "departmentId": 3, "departmentName": "Ophthalmology", "status": 2 },
+    { "id":4, "departmentId": 4, "departmentName": "Dermatology", "status": 1 },
+    { "id":5, "departmentId": 5, "departmentName": "Dental", "status": 1 }
   ],
   "doctors": [
     {
+      "id": 1,
       "doctorId": 1,
       "fullName": "Kim Leo",
       "speciality": "Dentist",
@@ -88,7 +96,8 @@
       "avatar": "assets/img/doctor-thumb-01.jpg"
     },
     {
-      "doctorId": 38,
+      "id": 2,
+      "doctorId": 2,
       "fullName": "Megha Mishrunka",
       "speciality": "ENT",
       "address": "Thrissur",
@@ -96,7 +105,8 @@
       "avatar": "assets/img/doctor-thumb-08.jpg"
     },
     {
-      "doctorId": 39,
+      "id": 3,
+      "doctorId": 3,
       "fullName": "Raja Anand",
       "speciality": "Orthopedia",
       "address": "Sri Nagar",
@@ -104,7 +114,8 @@
       "avatar": "assets/img/doctor-thumb-09.jpg"
     },
     {
-      "doctorId": 40,
+      "id": 4,
+      "doctorId": 4,
       "fullName": "Syed Faizan",
       "speciality": "Ophthalmologist",
       "address": "Bhadravathi",
@@ -112,7 +123,8 @@
       "avatar": "assets/img/doctor-thumb-04.jpg"
     },
     {
-      "doctorId": 41,
+      "id": 5,
+      "doctorId": 5,
       "fullName": "Jeevan Kumarswamy",
       "speciality": "Nephrologists ",
       "address": "Sakkarayapattana",
@@ -120,7 +132,8 @@
       "avatar": "assets/img/doctor-thumb-06.jpg"
     },
     {
-      "doctorId": 42,
+      "id": 6,
+      "doctorId": 6,
       "fullName": "Prajwal K N",
       "speciality": "Pancreatologists",
       "address": "Bhopal",
@@ -128,7 +141,8 @@
       "avatar": "assets/img/doctor-thumb-11.jpg"
     },
     {
-      "doctorId": 43,
+      "id": 7,
+      "doctorId": 7,
       "fullName": "Sudarsan Muniyappa",
       "speciality": "Neurologist",
       "address": "Bengaluru",
@@ -136,7 +150,8 @@
       "avatar": "assets/img/doctor-thumb-12.jpg"
     },
     {
-      "doctorId": 37,
+      "id": 8,
+      "doctorId": 8,
       "fullName": "Ajaya Deva",
       "speciality": "Oncology",
       "address": "Bengaluru",
@@ -146,18 +161,18 @@
   ],
   "appointments": [
     {
-      "appointmentId": 107,
-      "petId": 132,
-      "vetId": 1,
+      "id": 1,
+      "petId": 1,
+      "doctorId": 1,
       "date": "2023-01-23T14:27",
       "time": "14:27",
       "appointmentStatus": 1,
       "isApproved": "pending"
     },
     {
-      "appointmentId": 109,
-      "petId": 134,
-      "vetId": 38,
+      "id": 2,
+      "petId": 2,
+      "doctorId": 2,
       "date": "2023-01-23T14:41",
       "time": "14:41",
       "appointmentStatus": 1,
@@ -166,7 +181,7 @@
   ],
   "profile": [
     {
-      "profileID": 1,
+      "id": 1,
       "name": "cristino groves",
       "email": "cristinogroves@gmail.com",
       "DOB": "23-02-2002",
@@ -180,7 +195,7 @@
   ],
   "login": [
     {
-      "id": "doctor",
+      "id": 1,
       "name": "NT Infotech",
       "password": "Test$1234",
       "email": "test@gmail.com",
@@ -189,7 +204,7 @@
       "isactive": true
     },
     {
-      "id": "patient",
+      "id": 2,
       "name": "Test User",
       "password": "Test@1234",
       "email": "test@in.com",
@@ -200,7 +215,7 @@
   ],
   "clinic": [
     {
-      "clinicId": 25,
+      "id": 1,
       "clinicName": "Apollo",
       "clinicInfo": "Dental",
       "location": "Bengaluru",
@@ -210,7 +225,7 @@
       "status": "APPROVED"
     },
     {
-      "clinicId": 26,
+      "id": 2,
       "clinicName": "Apollo",
       "clinicInfo": "Dental",
       "location": "Bengaluru",
